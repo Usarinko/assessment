@@ -1,0 +1,18 @@
+body{
+    background-color: #04A6EB; /*16進数でのカラーコード*/
+    color: #FDFFFF;/*文字色*/
+    width: 500px;/*横幅は500ピクセル*/
+    margin-right: auto;/*左右のマージン（余白）は自動調節*/
+    margin-left: auto;
+}
+
+button{
+    padding: 5px 20px;/*ボタン要素の枠の内側の余白は、上下が5ピクセル、左右が20ピクセル*/
+    background-color: #337AB7;
+    color: #FDFFFF;
+    border-style: none;/*境界線を表示しない*/
+}
+
+input{
+    height: 20px;/*入力欄の高さ（上下の幅）をボタンと同じ20ピクセルにする*/
+}
