@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>あなたのいいところ診断</title>
+    <link rel="stylesheet" href="assessment.css">
+</head>
+<body>
+    <h1>あなたのいいところは？</h1>
+    <p>診断したい名前を入れてください</p>
+    <input type="text" id="user-name" size="40" maxlength="20">
+    <!--inputは、入力欄を作るためのタグ。type=入力の形式、id=JavaScriptプログラムから用いる属性、size=入力欄の大きさ、maxlength=入力できる最大文字数-->
+    <!--sizeやmaxlengthは、テキスト形式やパスワード形式には使用できるが、チェックボックスやラジオボタンでは無理-->
+    <button id="assessment">診断する</button><!--クリックするボタンを作る-->
+    <div id="result-area"></div><!--divタグは、JavaScriptやCSSから利用したいときに、プログラムから何かしらの表示をさせたり、スタイルシートで表示を変更したりすることができて便利。-->
+    <div id="tweet-area">
+        <!--twitter公式が出してるツイートボタン作成サイトからのリンク→ <a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="診断結果の文章" data-show-count="false">Tweet #あなたのいいところ</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+    </div>
+    <script src="assessment.js"></script>
+    
+</body>
+</html>
